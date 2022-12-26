@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navigation">
+          <div class="phone-size">
+              <div class="logo">
+                  <img src="artefielx.png" width="100px" height="63px" alt="">
+              </div>
+              <div class="show" id="showHamburgerMenu">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+              </div>
+          </div>
+         
+        
+        </div>
+        <div class="navbar-item">
+          <ul  id="navbar" >
+              <li><a href="index.html">anasayfa</a></li>
+              <li><a href="about.html">hakkimizda</a></li>
+              <li><a href="menu.html">menü</a></li>
+              <li><a href="organization.html">organizasyonlar</a></li>
+              <li><a href="carier.html">kariyer</a></li>
+             
+           </ul>
+  
+          </div>
+
+       
+      </header> 
+      <section class="menu">
+        <div class="tag-for-next">
+            <h1 style="color: rgb(141, 28, 28) ; margin-bottom: 1rem; font-size: 25px;">Cafe Home Menü</h1>
+           <a href="index.html">Anasayfa </a> <span>/</span> <a href="#"> Menü</a>
+        </div> 
+        <div class="menu-text">
+            <h1>Türk ve dünya mutfağinin en seçkin lezzetleri burada</h1>
+            <br>
+            <h4>Türk Mutfaği başta olmak üzere İtalyan ve Uzak Doğu mutfaklarindan da örneklerin bulunduğu menümüz sizler için özenle hazirlanmiştir</h4>
+        </div>
+      <div class="menu-buttons">
+        <button id="all" class="buttons-activate " onclick="activeClass(1)">Tümü</button>
+        <button id=food class="buttons-activate "  onclick="activeClass(2)"> Yemekler</button>
+        <button id="sweet" class="buttons-activate" onclick="activeClass(3)"> Tatlilar </button>
+        <button id="drink" class="buttons-activate" onclick="activeClass(4)"> İçecekler </button>
+      </div>
+    
+     <div class="menu-data"></div>
+    </section>
+     
+     
+   <footer class="menu-footer" style="background: #7e7e86;">
+    <div class="footer-about">
+        <div class="logo">
+            <img src="artefielx.png"   alt="">
+            <span>
+                CAFEHOME food factory dünyasi Sizler hayata lezzetli, keyifli, kaliteli ve ev sicakliğinda bir mola vermek için 2009 yilinda hayal edildi.
+            </span>
+        </div>
+       
+        <hr>
+      <div style="margin: 1rem 0rem ;"><span >  © 2009-2016 CAFEHOME | Tüm haklari saklidir</span></div>
+    </div>    
+
+   </footer>
+        <!-- jason data   -->
+     
+      <script src="ui.js"></script>
+      <script src="app.js"></script>
+</body>
+</html>
